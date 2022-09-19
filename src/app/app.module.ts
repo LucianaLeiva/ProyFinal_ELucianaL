@@ -11,7 +11,7 @@ import { BannerComponent } from './componentes/banner/banner.component';
 import { InfoComponent } from './componentes/info/info.component';
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
-import { NgCircleProgressModule } from 'ng-circle-progress';
+/*import { NgCircleProgressModule } from 'ng-circle-progress';*/
 import { HnsskillsComponent } from './componentes/hnsskills/hnsskills.component';
 
 @NgModule({
@@ -30,7 +30,7 @@ import { HnsskillsComponent } from './componentes/hnsskills/hnsskills.component'
     BrowserModule,
     AppRoutingModule,
     NoopAnimationsModule,
-    NgCircleProgressModule.forRoot({}),
+   /* NgCircleProgressModule.forRoot({}),*/
  ],
   providers: [],
   bootstrap: [AppComponent]
